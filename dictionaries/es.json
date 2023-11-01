@@ -1,0 +1,397 @@
+{
+  "landing_page": {
+    "layout": {
+      "Header": {
+        "section_name": "Inicio",
+        "SiteSections": {
+          "about_us": "¿Qué hacemos?",
+          "benefits": "Beneficios",
+          "team": "Equipo",
+          "projects": "Proyectos",
+          "contact": "Contacto"
+        },
+        "login": "Ingresar",
+        "signup": "Registrarse",
+        "preregister": "Registro Previo"
+      },
+      "Footer": {
+        "site_sections": {
+          "col1": [
+            { "name": "Quiero Invertir", "url": "/" },
+            { "name": "Proyectos", "url": "/" },
+            { "name": "Noticias", "url": "/" }
+          ],
+          "col2": [
+            { "name": "Soy arrocero", "url": "/" },
+            { "name": "Equipo Cultiapp", "url": "/" },
+            { "name": "Correo Institucional", "url": "/" }
+          ],
+          "col3": [
+            { "name": "Razones para invertir", "url": "/" },
+            { "name": "Términos y condiciones", "url": "/" },
+            { "name": "Política de Privacidad", "url": "/" }
+          ]
+        },
+        "contact_info": {
+          "social_icons_container": {
+            "title": "Síguenos: ",
+            "socialNetworks": [
+              {
+                "name": "Instagram",
+                "url": "/",
+                "src": "/icons/social/icon_button_instagram.svg"
+              },
+              {
+                "name": "Facebook",
+                "url": "/",
+                "src": "/icons/social/icon_button_facebook.svg"
+              },
+              {
+                "name": "Linkedin",
+                "url": "/",
+                "src": "/icons/social/icon_button_linkedin.svg"
+              },
+              {
+                "name": "Twitter",
+                "url": "/",
+                "src": "/icons/social/icon_button_twitter.svg"
+              },
+              {
+                "name": "Youtube",
+                "url": "/",
+                "src": "/icons/social/icon_button_youtube.svg"
+              }
+            ]
+          },
+          "contact": {
+            "address_and_phone": "Dirección | Tel (312) 439 89 38",
+            "email_and_city": "cultiapp.co@gmail.com | Bogotá D.C. Colombia",
+            "judicial_notice_email_title": "Correo exclusivo de notificaciones judiciales:",
+            "judicial_notice_email": "cultiapp.co@gmail.com",
+            "jcustomer_service_email_title": "Correo exclusivo de atención al cliente:",
+            "jcustomer_service_email": "cultiapp.co@gmail.com"
+          }
+        },
+        "copyright_msg": "Copyright © 2023. Todos los derechos reservados."
+      }
+    },
+    "page": {
+      "metadata": {
+        "title": "Inicio - Cultiapp",
+        "description": "Landing page de Cultiapp"
+      },
+      "HomeBanner": {
+        "regular_title": {
+          "p_1": "Con",
+          "greenfund_title": "Cultiapp",
+          "p_2": "puedes ser parte de un gran sueño que alimenta a millones de personas en el mundo"
+        },
+        "invest_info": {
+          "regular_title": "Invierte desde",
+          "green_title": "850.000 COP",
+          "invest_desc": "Plantando semillas con éxito financiero."
+        },
+        "i_want_to_invest_btn": "Quiero saber más"
+      },
+      "Introduction": {
+        "title": "Conócenos...",
+        "row1": "Somos una plataforma de inversión colectiva que te convierte en socio de cultivos de arroz en el campo colombino! Si eres un inversionista con visión, ahora puedes respaldar a los agricultores locales mientras cosechas rendimientos.",
+        "row2": "¿Alguna vez has soñado con ser parte del proceso de cultivo que alimenta a millones de personas en todo el mundo? ¡Ahora es tu oportunidad! Te invitamos a ser uno de los pioneros en invertir en los proyectos de nuestros arroceros, ¡Regístrate ahora!",
+        "i_want_to_invest_btn": "Quiero hacer parte"
+      },
+      "Registration": {
+        "box": {
+          "title": "Registro Previo",
+          "form": {
+            "emailLabel": "Correo Electrónico",
+            "userTypes": {
+              "agricultor": "Agricultor",
+              "investor": "Inversor"
+            }
+          },
+          "errors": {
+            "emailRequired": "La dirección de correo no es válida",
+            "selectionRequired": "Debes seleccionar una opción"
+          },
+          "placeholders": {
+            "email": "Escribe tu correo electrónico"
+          },
+          "submit": "Suscribirme"
+        },
+        "info": {
+          "main_title": "Lorem ipsum dolor sit amet",
+          "description": "Lorem ipsum dolor sit amet consectetur. Netus ut proin leo massa a quam amet. Est vulputate ac aliquet diam viverra. Quam fringilla dolor.",
+          "usersInfo": {
+            "investor": {
+              "title": "Inversionista",
+              "description": "Acá encontrarás un párrafo con los detalles al registrarte previamente como inversionista"
+            },
+            "agricultor": {
+              "title": "Agricultor",
+              "description": "Acá encontrarás un párrafo con los detalles al registrarte previamente como agricultor"
+            }
+          }
+        }
+      },
+      "GreenMetrics": {
+        "metrics": [
+          {
+            "name": "Proyectos",
+            "data": 100,
+            "imgSrc": "/icons/icon_flat_128x128_zanahorias.svg"
+          },
+          {
+            "name": "Agricultores",
+            "data": 250,
+            "imgSrc": "/icons/icon_flat_128x128_agricultor.svg"
+          },
+          {
+            "name": "Hectáreas",
+            "data": 1500,
+            "imgSrc": "/icons/icon_flat_128x128_hectareas.svg"
+          },
+          {
+            "name": "Inversores",
+            "data": 2300,
+            "imgSrc": "/icons/icon_flat_128x128_inversion.svg"
+          }
+        ]
+      },
+      "ReasonsToInvest": {
+        "section_title": "5 razones para invertir...",
+        "reasons_elements": [
+          {
+            "image_unactive": "/icons/icon_flat_128x128_bolsa dinero.svg",
+            "image_active": "/icons/icon_flat_64x64_bolsa dinero.svg",
+            "title": "Rendimientos Atractivos",
+            "description": "Al invertir en GreenFund, tienes la oportunidad de obtener rendimientos interesantes de tu capital en un plazo relativamente corto. Nuestra plataforma conecta inversionistas con arroceros, permitiéndote participar en el crecimiento y éxito del sector agrícola.",
+            "id": 0
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_planta.svg",
+            "image_active": "/icons/icon_flat_64x64_planta.svg",
+            "title": "Impacto positivo en el campo colombiano",
+            "description": "Al invertir en GreenFund, estás contribuyendo directamente al desarrollo del campo colombiano y apoyando a los agricultores. Tu inversión ayuda a los arroceros a acceder a los insumos necesarios para sus cultivos, generando un impacto social y económico significativo.",
+            "id": 1
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_grafica pastel.svg",
+            "image_active": "/icons/icon_flat_64x64_grafica pastel.svg",
+            "title": "Diversificación de cartera",
+            "description": "Invertir en GreenFund ofrece una oportunidad de diversificar tu cartera. Al agregar inversiones agrícolas a tu portafolio, puedes reducir el riesgo y obtener exposición a un sector en crecimiento con fundamentos sólidos.",
+            "id": 2
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_seguridad.svg",
+            "image_active": "/icons/icon_flat_64x64_seguridad.svg",
+            "title": "Transparencia y seguridad",
+            "description": "En GreenFund, nos tomamos en serio la transparencia y la seguridad. Te brindamos información clara y detallada sobre los proyectos y arroceros con los que te asocias, y trabajamos para garantizar que tus inversiones estén protegidas.",
+            "id": 3
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_facil.svg",
+            "image_active": "/icons/icon_flat_64x64_facil.svg",
+            "title": "Acceso sencillo y conveniente",
+            "description": "Nuestra plataforma facilita el proceso de inversión. Puedes invertir desde la comodidad de tu hogar, a través de una interfaz intuitiva y amigable. Sin complicaciones ni barreras, GreenFund te ofrece un acceso sencillo a oportunidades de inversión en el sector agrícola.",
+            "id": 4
+          }
+        ],
+        "i_want_to_invest_btn": "Quiero invertir"
+      },
+      "FeaturedProjects": {
+        "section_title": "Participate in one of our projects",
+        "cardsInfo": [
+          {
+            "name": "Ricardo Torres",
+            "role": "Agricultor",
+            "favorite": false,
+            "ImageSrc": "/images/dummieProfiles/RicardoTorres.png",
+            "location": "Santa María - Huila",
+            "benefit": "19% de retorno E.A.",
+            "minInvest": "1,520,538.46 COP",
+            "investGoal": "31,500,000 COP",
+            "progressPercentage": "37.2",
+            "progressValue": "11.733.000 COP",
+            "partners": "5"
+          },
+          {
+            "name": "Ricardo Torres",
+            "role": "Agricultor",
+            "favorite": false,
+            "ImageSrc": "/images/dummieProfiles/RicardoTorres.png",
+            "location": "Santa María - Huila",
+            "benefit": "19% de retorno E.A.",
+            "minInvest": "1,520,538.46 COP",
+            "investGoal": "31,500,000 COP",
+            "progressPercentage": "37.2",
+            "progressValue": "11.733.000 COP",
+            "partners": "5"
+          },
+          {
+            "name": "Ricardo Torres",
+            "role": "Agricultor",
+            "favorite": false,
+            "ImageSrc": "/images/dummieProfiles/RicardoTorres.png",
+            "location": "Santa María - Huila",
+            "benefit": "19% de retorno E.A.",
+            "minInvest": "1,520,538.46 COP",
+            "investGoal": "31,500,000 COP",
+            "progressPercentage": "37.2",
+            "progressValue": "11.733.000 COP",
+            "partners": "5"
+          }
+        ],
+        "cardsInfoTitles": {
+          "minInvest": "Invierte desde ",
+          "investGoal": "Meta a financiar ",
+          "progressPercentage": "Avance",
+          "progressValue": "Financiado",
+          "partners": "# Socios"
+        }
+      },
+      "StepsToInvest": {
+        "section_title": "Pasos para invertir",
+        "steps_elements": [
+          {
+            "image_active": "/icons/icon_flat_128x128_planta.svg",
+            "image_unactive": "/icons/icon_flat_64x64_planta.svg",
+            "title": "Paso 1",
+            "description": "El usuario decide invertir una cantidad específica de dinero en nuestra plataforma digital.",
+            "id": 0
+          },
+          {
+            "image_active": "/icons/icon_flat_128x128_grafica pastel.svg",
+            "image_unactive": "/icons/icon_flat_64x64_grafica pastel.svg",
+            "title": "Paso 2",
+            "description": "Con ese capital, Greenfund financia el cultivo a una empresa asociada dedicada al cultivo y procesamiento de cannabis. Este financiamiento cubre todos los gastos desde la siembra de las semillas hasta el momento en que la planta se vende o se procesa en alguno de sus derivados.",
+            "id": 1
+          },
+          {
+            "image_active": "/icons/icon_flat_128x128_seguridad.svg",
+            "image_unactive": "/icons/icon_flat_64x64_seguridad.svg",
+            "title": "Paso 3",
+            "description": "Una vez que la empresa asociada vende la planta, se que da con un porcentaje de las ganancias generadas. Greenfund también recibe un porcentaje de las ganancias como compensación por su gestión y participación en el proceso.",
+            "id": 2
+          },
+          {
+            "image_active": "/icons/icon_flat_128x128_facil.svg",
+            "image_unactive": "/icons/icon_flat_64x64_facil.svg",
+            "title": "Paso 4",
+            "description": "Finalmente, los inversores reciben su capital inicial invertido junto con sus ganancias.",
+            "id": 3
+          }
+        ]
+      },
+      "popups": {
+        "successful_preregistration": {
+          "title": "¡Hola!",
+          "description": "Pre-rigistro completado con exito. Estaras recibiendo proximas novedades muy proto. ¡Bienvenido!.",
+          "message": "Pre-registro exitoso",
+          "icon": "/icons/icon_flat_64x64_check.svg",
+          "button": "Cerrar"
+        },
+        "duplicate_email": {
+          "title": "Ups!",
+          "description": "El correo proporcionado ya se encuentra registrado.",
+          "message": "Correo Duplicado",
+          "icon": "/icons/icon_flat_64x64_error.svg",
+          "button": "Cerrar"
+        },
+        "error": {
+          "title": "¡Ups!",
+          "description": "El servicio no responde en este momento, por favor intenta más tarde. ¡Gracias!.",
+          "message": "Hay un inconveniente",
+          "icon": "/icons/icon_flat_64x64_error.svg",
+          "button": "Cerrar"
+        },
+        "no_connection": {
+          "title": "¡Lo sentimos!",
+          "description": "En este momento estamos presentando problemas, espera un momento e intenta de nuevo.",
+          "message": "No hay conexión",
+          "icon": "/icons/icon_flat_64x64_error.svg",
+          "button": "Ingresar"
+        }
+      }
+    },
+    "contacto_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Contacto - GreenFund",
+          "description": "Contacto de GreenFund"
+        }
+      }
+    },
+    "preregister_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Preregistro - GreenFund",
+          "description": "Preregistro en GreenFund"
+        },
+        "box": {
+          "title": "Registro Previo",
+          "form": {
+            "emailLabel": "Correo Electrónico",
+            "userTypes": {
+              "agricultor": "Agricultor",
+              "investor": "Inversor"
+            }
+          },
+          "errors": {
+            "emailRequired": "La dirección de correo no es válida",
+            "selectionRequired": "Debes seleccionar una opción"
+          },
+          "placeholders": {
+            "email": "Escribe tu correo electrónico"
+          },
+          "submit": "Suscribirme"
+        },
+        "info": {
+          "main_title": "Lorem ipsum dolor sit amet",
+          "description": "Lorem ipsum dolor sit amet consectetur. Netus ut proin leo massa a quam amet. Est vulputate ac aliquet diam viverra. Quam fringilla dolor.",
+          "usersInfo": {
+            "investor": {
+              "title": "Inversionista",
+              "description": "Acá encontrarás un párrafo con los detalles al registrarte previamente como inversionista"
+            },
+            "agricultor": {
+              "title": "Agricultor",
+              "description": "Acá encontrarás un párrafo con los detalles al registrarte previamente como agricultor"
+            }
+          }
+        }
+      }
+    }
+  },
+  "loginAndRegistration": {
+    "ingreso_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Ingreso - GreenFund",
+          "description": "Ingreso de GreenFund"
+        }
+      }
+    },
+    "registration_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Registro - Cultiapp",
+          "description": "Registro de Cultiapp"
+        }
+      }
+    }
+  },
+  "components": {},
+  "_example_page": {
+    "layout": {},
+    "page": {
+      "metadata": {
+        "title": "Test - Cultiapp",
+        "description": "Test de Cultiapp"
+      }
+    }
+  }
+}

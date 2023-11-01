@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@dictionaries": ["./dictionaries.js"],
+      "@I18nContext": ["./src/util/context/I18nContext.js"],
     }
   }
 }

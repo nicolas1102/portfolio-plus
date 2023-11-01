@@ -1,0 +1,397 @@
+{
+  "landing_page": {
+    "layout": {
+      "Header": {
+        "section_name": "Home",
+        "SiteSections": {
+          "about_us": "About Us",
+          "benefits": "Benefits",
+          "team": "Team",
+          "projects": "Projects",
+          "contact": "Contact"
+        },
+        "login": "Log In",
+        "signup": "Sign Up",
+        "preregister": "Pre Register"
+      },
+      "Footer": {
+        "site_sections": {
+          "col1": [
+            { "name": "I Want to Invest", "url": "/" },
+            { "name": "Projects", "url": "/" },
+            { "name": "News", "url": "/" }
+          ],
+          "col2": [
+            { "name": "I Am Rice Planter Person", "url": "/" },
+            { "name": "GreenFund Team", "url": "/" },
+            { "name": "Institutional Email", "url": "/" }
+          ],
+          "col3": [
+            { "name": "Reasons to Invest", "url": "/" },
+            { "name": "Terms and Conditions", "url": "/" },
+            { "name": "Privacy Policy", "url": "/" }
+          ]
+        },
+        "contact_info": {
+          "social_icons_container": {
+            "title": "Follow Us: ",
+            "socialNetworks": [
+              {
+                "name": "Instagram",
+                "url": "/",
+                "src": "/icons/social/icon_button_instagram.svg"
+              },
+              {
+                "name": "Facebook",
+                "url": "/",
+                "src": "/icons/social/icon_button_facebook.svg"
+              },
+              {
+                "name": "Linkedin",
+                "url": "/",
+                "src": "/icons/social/icon_button_linkedin.svg"
+              },
+              {
+                "name": "Twitter",
+                "url": "/",
+                "src": "/icons/social/icon_button_twitter.svg"
+              },
+              {
+                "name": "Youtube",
+                "url": "/",
+                "src": "/icons/social/icon_button_youtube.svg"
+              }
+            ]
+          },
+          "contact": {
+            "address_and_phone": "Address | Phone (312) 439 89 38",
+            "email_and_city": "cultiapp.co@gmail.com | Bogotá D.C. Colombia",
+            "judicial_notice_email_title": "Exclusive email for judicial notifications:",
+            "judicial_notice_email": "cultiapp.co@gmail.com",
+            "jcustomer_service_email_title": "Exclusive customer service email:",
+            "jcustomer_service_email": "cultiapp.co@gmail.com"
+          }
+        },
+        "copyright_msg": "Copyright © 2023. All rights reserved."
+      }
+    },
+    "page": {
+      "metadata": {
+        "title": "Home - Cultiapp",
+        "description": "Landing page of Cultiapp"
+      },
+      "HomeBanner": {
+        "regular_title": {
+          "p_1": "With",
+          "greenfund_title": "Cultiapp",
+          "p_2": "you can be part of a great dream that feeds millions of people around the world."
+        },
+        "invest_info": {
+          "regular_title": "Invest from",
+          "green_title": "850.000 COP",
+          "invest_desc": "Planting seeds with financial success."
+        },
+        "i_want_to_invest_btn": "I want to know more"
+      },
+      "Introduction": {
+        "title": "About Us...",
+        "row1": "We are a collective investment platform that makes you a partner in rice farming in the Colombian countryside! If you are an investor with vision, you can now support local farmers while reaping returns.",
+        "row2": "Have you ever dreamed of being part of the cultivation process that feeds millions of people around the world? Now is your chance! We invite you to be one of the pioneers in investing in the projects of our rice farmers, register now!",
+        "i_want_to_invest_btn": "I want to join"
+      },
+      "Registration": {
+        "box": {
+          "title": "Preregister",
+          "form": {
+            "emailLabel": "Email",
+            "userTypes": {
+              "agricultor": "Rice Planter",
+              "investor": "Investor"
+            }
+          },
+          "errors": {
+            "emailRequired": "The e-mail address is not valid",
+            "selectionRequired": "You have to select an option"
+          },
+          "placeholders": {
+            "email": "Write down your email"
+          },
+          "submit": "Subscribe"
+        },
+        "info": {
+          "main_title": "Lorem ipsum dolor sit amet",
+          "description": "Lorem ipsum dolor sit amet consectetur. Netus ut proin leo massa a quam amet. Est vulputate ac aliquet diam viverra. Quam fringilla dolor.",
+          "usersInfo": {
+            "investor": {
+              "title": "Investor",
+              "description": "Here you will find a paragraph with the details on how to pre-register as an investor"
+            },
+            "agricultor": {
+              "title": "Rice Planter",
+              "description": "Here you will find a paragraph with the details on how to pre-register as a Rice Planter"
+            }
+          }
+        }
+      },
+      "GreenMetrics": {
+        "metrics": [
+          {
+            "name": "Projects",
+            "data": 100,
+            "imgSrc": "/icons/icon_flat_128x128_zanahorias.svg"
+          },
+          {
+            "name": "Farmers",
+            "data": 250,
+            "imgSrc": "/icons/icon_flat_128x128_agricultor.svg"
+          },
+          {
+            "name": "Acres",
+            "data": 1500,
+            "imgSrc": "/icons/icon_flat_128x128_hectareas.svg"
+          },
+          {
+            "name": "Inverters",
+            "data": 2300,
+            "imgSrc": "/icons/icon_flat_128x128_inversion.svg"
+          }
+        ]
+      },
+      "ReasonsToInvest": {
+        "section_title": "5 reasons to invest...",
+        "reasons_elements": [
+          {
+            "image_unactive": "/icons/icon_flat_128x128_bolsa dinero.svg",
+            "image_active": "/icons/icon_flat_64x64_bolsa dinero.svg",
+            "title": "Attractive Yields",
+            "description": "By investing in GreenFund, you have the opportunity to earn interesting returns on your capital in a relatively short period of time. Our platform connects investors with rice farmers, allowing you to participate in the growth and success of the agricultural sector.",
+            "id": 0
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_planta.svg",
+            "image_active": "/icons/icon_flat_64x64_planta.svg",
+            "title": "Positive impact in the Colombian countryside",
+            "description": "By investing in GreenFund, you are directly contributing to the development of the Colombian countryside and supporting farmers. Your investment helps rice farmers to access the necessary inputs for their crops, generating a significant social and economic impact.",
+            "id": 1
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_grafica pastel.svg",
+            "image_active": "/icons/icon_flat_64x64_grafica pastel.svg",
+            "title": "Portfolio diversification",
+            "description": "Investing in GreenFund offers an opportunity to diversify your portfolio. By adding agricultural investments to your portfolio, you can reduce risk and gain exposure to a growing sector with strong fundamentals.",
+            "id": 2
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_seguridad.svg",
+            "image_active": "/icons/icon_flat_64x64_seguridad.svg",
+            "title": "Transparency and security",
+            "description": "At GreenFund, we take transparency and security seriously. We provide you with clear and detailed information about the projects and rice farmers you partner with, and we work to ensure your investments are protected.",
+            "id": 3
+          },
+          {
+            "image_unactive": "/icons/icon_flat_128x128_facil.svg",
+            "image_active": "/icons/icon_flat_64x64_facil.svg",
+            "title": "Simple and convenient access",
+            "description": "Our platform facilitates the investment process. You can invest from the comfort of your home, through an intuitive and friendly interface. Without complications or barriers, GreenFund offers you easy access to investment opportunities in the agricultural sector.",
+            "id": 4
+          }
+        ],
+        "i_want_to_invest_btn": "I want to invest"
+      },
+      "FeaturedProjects": {
+        "section_title": "Participate in one of our projects",
+        "cardsInfo": [
+          {
+            "name": "Ricardo Torres",
+            "role": "Farmer",
+            "favorite": false,
+            "ImageSrc": "/images/dummieProfiles/RicardoTorres.png",
+            "location": "Santa María - Huila",
+            "benefit": "19% return E.A.",
+            "minInvest": "1,520,538.46 COP",
+            "investGoal": "31,500,000 COP",
+            "progressPercentage": "37.2",
+            "progressValue": "11.733.000 COP",
+            "partners": "5"
+          },
+          {
+            "name": "Ricardo Torres",
+            "role": "Farmer",
+            "favorite": false,
+            "ImageSrc": "/images/dummieProfiles/RicardoTorres.png",
+            "location": "Santa María - Huila",
+            "benefit": "19% return E.A.",
+            "minInvest": "1,520,538.46 COP",
+            "investGoal": "31,500,000 COP",
+            "progressPercentage": "37.2",
+            "progressValue": "11.733.000 COP",
+            "partners": "5"
+          },
+          {
+            "name": "Ricardo Torres",
+            "role": "Farmer",
+            "favorite": false,
+            "ImageSrc": "/images/dummieProfiles/RicardoTorres.png",
+            "location": "Santa María - Huila",
+            "benefit": "19% return E.A.",
+            "minInvest": "1,520,538.46 COP",
+            "investGoal": "31,500,000 COP",
+            "progressPercentage": "37.2",
+            "progressValue": "11.733.000 COP",
+            "partners": "5"
+          }
+        ],
+        "cardsInfoTitles": {
+          "minInvest": "Invest from ",
+          "investGoal": "Goal to finance ",
+          "progressPercentage": "Advance",
+          "progressValue": "Financed",
+          "partners": "# Partners"
+        }
+      },
+      "StepsToInvest": {
+        "section_title": "Steps to invest",
+        "steps_elements": [
+          {
+            "image_active": "/icons/icon_flat_128x128_planta.svg",
+            "image_unactive": "/icons/icon_flat_64x64_planta.svg",
+            "title": "Step 1",
+            "description": "The user decides to invest a specific amount of money in our digital platform.",
+            "id": 0
+          },
+          {
+            "image_active": "/icons/icon_flat_128x128_grafica pastel.svg",
+            "image_unactive": "/icons/icon_flat_64x64_grafica pastel.svg",
+            "title": "Step 2",
+            "description": "With that capital, Greenfund finances the cultivation of a partner company dedicated to the cultivation and processing of cannabis. This financing covers all expenses from the sowing of the seeds until the moment the plant is sold or processed into any of its derivatives.",
+            "id": 1
+          },
+          {
+            "image_active": "/icons/icon_flat_128x128_seguridad.svg",
+            "image_unactive": "/icons/icon_flat_64x64_seguridad.svg",
+            "title": "Step 3",
+            "description": "Once the associated company sells the plant, it is given a percentage of the profits generated. Greenfund also receives a percentage of the profits as compensation for its management and participation in the process.",
+            "id": 2
+          },
+          {
+            "image_active": "/icons/icon_flat_128x128_facil.svg",
+            "image_unactive": "/icons/icon_flat_64x64_facil.svg",
+            "title": "Step 4",
+            "description": "Finally, investors receive their initial invested capital along with their profits.",
+            "id": 3
+          }
+        ]
+      },
+      "popups": {
+        "successful_preregistration": {
+          "title": "¡Hello!",
+          "description": "Pre-registration completed successfully. You will be receiving very proto upcoming news. Welcome!.",
+          "message": "Successful Pre-registration",
+          "icon": "/icons/icon_flat_64x64_check.svg",
+          "button": "Close"
+        },
+        "duplicate_email": {
+          "title": "Ups!",
+          "description": "The email provided is already registered.",
+          "message": "Duplicate Email",
+          "icon": "/icons/icon_flat_64x64_error.svg",
+          "button": "Close"
+        },
+        "error": {
+          "title": "Ups!",
+          "description": "The service is not responding at this time, please try again later. Thank you!.",
+          "message": "There is a drawback",
+          "icon": "/icons/icon_flat_64x64_error.svg",
+          "button": "Close"
+        },
+        "no_connection": {
+          "title": "We're sorry!",
+          "description": "We are currently experiencing problems, please wait a moment and try again.",
+          "message": "There is no connection",
+          "icon": "/icons/icon_flat_64x64_error.svg",
+          "button": "Login"
+        }
+      }
+    },
+    "contacto_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Contact - GreenFund",
+          "description": "Contact of GreenFund"
+        }
+      }
+    },
+    "preregister_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Preregister - GreenFund",
+          "description": "Preregister on GreenFund"
+        },
+        "box": {
+          "title": "Preregister",
+          "form": {
+            "emailLabel": "Email",
+            "userTypes": {
+              "agricultor": "Rice Planter",
+              "investor": "Investor"
+            }
+          },
+          "errors": {
+            "emailRequired": "The e-mail address is not valid",
+            "selectionRequired": "You have to select an option"
+          },
+          "placeholders": {
+            "email": "Write down your email"
+          },
+          "submit": "Subscribe"
+        },
+        "info": {
+          "main_title": "Lorem ipsum dolor sit amet",
+          "description": "Lorem ipsum dolor sit amet consectetur. Netus ut proin leo massa a quam amet. Est vulputate ac aliquet diam viverra. Quam fringilla dolor.",
+          "usersInfo": {
+            "investor": {
+              "title": "Investor",
+              "description": "Here you will find a paragraph with the details on how to pre-register as an investor"
+            },
+            "agricultor": {
+              "title": "Rice Planter",
+              "description": "Here you will find a paragraph with the details on how to pre-register as a Rice Planter"
+            }
+          }
+        }
+      }
+    }
+  },
+  "loginAndRegistration": {
+    "ingreso_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Login - GreenFund",
+          "description": "Login of GreenFund"
+        }
+      }
+    },
+    "registro_page": {
+      "layout": {},
+      "page": {
+        "metadata": {
+          "title": "Registration - GreenFund",
+          "description": "Registration of GreenFund"
+        }
+      }
+    }
+  },
+  "components": {},
+  "_example_page": {
+    "layout": {},
+    "page": {
+      "metadata": {
+        "title": "Test - Cultiapp",
+        "description": "Test of Cultiapp"
+      }
+    }
+  }
+}

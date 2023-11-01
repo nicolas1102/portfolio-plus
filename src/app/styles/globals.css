@@ -1,0 +1,36 @@
+:root {
+  --white: #FFFFFF;
+  --color-white: rgb(202, 202, 202);
+  --color-light: rgb(190, 190, 190);
+  --color-light-2: rgb(131, 131, 131);
+  --color-dark-black: #1c1c1c;
+  --color-dark-black-2: #000000;
+  --color-dark-black-3: #101010;
+  --color-green: #213a21;
+  --color-bright-green: #3ea73e;
+  --color-light-green: #336033;
+  --shadow: rgba(255, 255, 255, 0.2);
+  --shadow-full: rgba(255, 255, 255, 0.8);
+  --shadow-dark: rgba(0, 0, 0, 0.5);
+  --shadow-dark-full: rgba(0, 0, 0, 0.9);
+  --shadow-green: rgba(37, 186, 35, 0.223);
+  --shadow-dark-green: rgba(4, 255, 0, 0.137);
+  --shadow-green-full: rgba(37, 186, 35, 0.489);
+  --shadow-dark-green-full: rgba(4, 255, 0, 0.337);
+  --shadow-dark-full: rgba(0, 0, 0, 0.9);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
