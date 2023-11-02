@@ -1,8 +1,8 @@
 "use client"
 import { useState, useEffect } from "react";
-import { useCntxt } from "@/util/context/context";
+import { useCntxt } from "@context";
 import Header from "./components/header/header";
-import Introduction from "./components/introduction/introduction";
+import Introduction from "./components/introduction";
 
 export default function Home() {
   const { metadata, setMetadata } = useCntxt();

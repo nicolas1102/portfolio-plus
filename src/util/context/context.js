@@ -8,7 +8,7 @@ export function ContextProvider({ children }) {
     title: "Nicolás' Portfolio",
     description: "Nicolás' Portfolio",
   });
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("");
 
   return (
     <Context.Provider
@@ -28,8 +28,4 @@ export function ContextProvider({ children }) {
 
 export function useCntxt() {
   return useContext(Context);
-}
-
-export function changeTheme(theme, setTheme) {
-  theme === "dark" ? (setTheme("light")) : (setTheme("dark"));
 }
