@@ -1,4 +1,14 @@
 {
+  "layout": {},
+  "page": {
+    "metadata": {
+      "title": "Nicolás' Portfolio",
+      "description": "Nicolás' Portfolio"
+    },
+    "Header": {
+      "themes": ["dark", "light"]
+    }
+  },
   "landing_page": {
     "layout": {
       "Header": {
