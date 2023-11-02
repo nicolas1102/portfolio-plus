@@ -3,7 +3,7 @@
     "paths": {
       "@/*": ["./src/*"],
       "@dictionaries": ["./dictionaries.js"],
-      "@I18nContext": ["./src/util/context/I18nContext.js"],
+      "@I18nContext": ["src/util/context/context.js"],
     }
   }
 }

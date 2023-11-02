@@ -1,7 +1,7 @@
 "use client";
-import { I18nProvider } from "../util/context/I18nContext";
+import { ContextProvider } from "../util/context/context";
 import "@/app/styles/globals.css";
 
 export default function RootLayout({ children }) {
-  return <I18nProvider>{children}</I18nProvider>;
+  return <ContextProvider>{children}</ContextProvider>;
 }

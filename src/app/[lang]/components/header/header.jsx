@@ -15,23 +15,27 @@ export default function Header({ lang, DICT }) {
   };
   return (
     <header className={`${styles.header} ${montserrat.className}`}>
-      <div
-      ><Link
-            className={lang === "es" ? styles.lang_option : ""}
-            href={redirectedPathName("es")}
-          >
-            ES
-          </Link>
-          <Link
-            className={lang === "en" ? styles.lang_option : ""}
-            href={redirectedPathName("en")}
-          >
-            EN
-          </Link>
+      <div>
+        <Link
+          className={lang === "es" ? styles.lang_option : ""}
+          href={redirectedPathName("es")}
+        >
+          ES
+        </Link>
+        <Link
+          className={lang === "en" ? styles.lang_option : ""}
+          href={redirectedPathName("en")}
+        >
+          EN
+        </Link>
       </div>
       <div>
-        <p>Dark</p>
+        { 
+
+        }
+        <p>{DICT.themes[0]}</p>
       </div>
     </header>
   );
 }
+
