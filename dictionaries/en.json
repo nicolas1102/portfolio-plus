@@ -5,8 +5,14 @@
       "title": "Nicolás' Portfolio",
       "description": "Nicolás' Portfolio"
     },
-    "Header": {
-      "themes": ["dark", "light"]
-    }
+    "Introduction": {
+      "h1": "Nicolás Díaz",
+      "title": "Systems Engineer & Web Developer in Training...",
+      "description": [
+        "I am a systems engineer in training with the desire to become a full-stack developer. For this I always seek to learn everything I can about this world of and thus become a better version of myself.",
+        "Each project that I develop I do conscientiously and although I know that each one could have been better, I am satisfied with what I have achieved and learned while developing them."
+      ]
+    },
+    "Knowledge": {}
   }
 }

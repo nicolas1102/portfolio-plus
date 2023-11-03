@@ -32,7 +32,7 @@ export default function RootLayout({ children, params: { lang } }) {
   return (
     <html lang={lang} className={theme}>
       <HeadMetadata title={metadata.title} description={metadata.description} />
-      <body className="bg-tertiary-100 dark:bg-tertiary-500 ">
+      <body className="bg-gray-100 dark:bg-secondary-500 text-secondary-400 dark:text-white">
         {!DICTContext ? <Loading /> : <>{children}</>}
       </body>
     </html>

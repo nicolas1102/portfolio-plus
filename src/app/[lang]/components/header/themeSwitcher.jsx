@@ -1,5 +1,4 @@
 "use client";
-import { useTheme } from "next-themes";
 import { useCntxt } from "@context";
 
 export default function ThemeSwitcher({}) {
@@ -11,11 +10,11 @@ export default function ThemeSwitcher({}) {
   const sun = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
+      fill="#111621"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="currentColor"
-      className="w-7 h-7"
+      stroke="#111621"
+      className="w-5 h-5"
     >
       <path
         strokeLinecap="round"
@@ -28,11 +27,11 @@ export default function ThemeSwitcher({}) {
   const moon = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="none"
+      fill="white"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="white"
-      className="w-7 h-7"
+      className="w-5 h-5"
     >
       <path
         strokeLinecap="round"
@@ -47,7 +46,7 @@ export default function ThemeSwitcher({}) {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed z-10 p-2 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
+        className="transition duration-300 fixed z-10 p-2 right-6 top-6 bg-primary-300 dark:bg-primary-200 rounded-md border-2 border-secondary-400 dark:border-white hover:bg-primary-200 active:bg-primary-200 dark:hover:bg-primary-300 dark:active:bg-primary-300"
       >
         {theme === "dark" ? sun : moon}
       </button>

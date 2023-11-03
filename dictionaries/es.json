@@ -5,8 +5,14 @@
       "title": "Portafolio de Nicolás",
       "description": "Portafolio de Nicolás"
     },
-    "Header": {
-      "themes": ["oscuro", "iluminado por el señor"]
-    }
+    "Introduction": {
+      "h1": "Nicolás Díaz",
+      "title": "Ingeniero de Sistemas y Desarrollador Web en formación...",
+      "description": [
+        "I am a systems engineer in training with the desire to become a full-stack developer. For this I always seek to learn everything I can about this world of and thus become a better version of myself.",
+        "Each project that I develop I do conscientiously and although I know that each one could have been better, I am satisfied with what I have achieved and learned while developing them."
+      ]
+    },
+    "Knowledge": {}
   }
 }

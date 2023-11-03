@@ -1,10 +1,11 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import { useCntxt } from "@context";
 import Header from "./components/header/header";
 import Introduction from "./components/introduction";
+import Knowledge from "./components/knowledge";
 
-export default function Home() {
+export default function Home({ params: { lang } }) {
   const { metadata, setMetadata } = useCntxt();
   const [DICT, setDICT] = useState(useCntxt().DICTContext.page);
 
@@ -19,8 +20,10 @@ export default function Home() {
 
   return (
     <main>
-      <Header DICT={DICT.Header}/>
-      <Introduction DICT={DICT.Header}/>
+      <Header lang={lang}/>
+      <Introduction DICT={DICT.Introduction} />
+      <Knowledge DICT={DICT.Knowledge} />
+
     </main>
   );
 }
