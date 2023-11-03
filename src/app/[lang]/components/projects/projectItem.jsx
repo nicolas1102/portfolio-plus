@@ -1,7 +1,7 @@
 import Title from "@/app/components/common/title";
 import Image from "next/image";
 
-export default function ProjectItem({ imgUrl, title, tecnologies, link }) {
+export default function ProjectItem({ imgUrl, title, description, tecnologies, link }) {
   return (
     <a
       href={link}
@@ -20,6 +20,9 @@ export default function ProjectItem({ imgUrl, title, tecnologies, link }) {
         <h3 className="text-lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold ">
           {title}
         </h3>
+        <p>
+          {description}
+        </p>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white ">
           {tecnologies.map((item) => (
             <span

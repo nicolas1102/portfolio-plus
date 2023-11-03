@@ -9,10 +9,82 @@
       "h1": "Nicolás Díaz",
       "title": "Ingeniero de Sistemas y Desarrollador Web en formación...",
       "description": [
-        "I am a systems engineer in training with the desire to become a full-stack developer. For this I always seek to learn everything I can about this world of and thus become a better version of myself.",
-        "Each project that I develop I do conscientiously and although I know that each one could have been better, I am satisfied with what I have achieved and learned while developing them."
+        "Soy ingeniero de sistemas en formación con el deseo de convertirme en desarrollador full-stack. Por eso siempre busco aprender todo lo que pueda sobre este mundo y así convertirme en una mejor versión de mí mismo.",
+        "Cada proyecto que desarrollo lo hago de forma consciente y aunque sé que cada uno pudo haber sido mejor, estoy satisfecho con lo que he logrado y aprendido mientras los desarrollé."
       ]
     },
-    "Knowledge": {}
+    "Projects": {
+      "title": "Proyectos",
+      "items": [
+        {
+          "imgUrl": "/images/cine-distrital.png",
+          "title": "Cine Distrito",
+          "description": "Plataforma Full-stack de un cine.",
+          "tecnologies": ["node", "js", "mongodb"],
+          "link": "https://github.com/nicolas1102/cine-distrito"
+        },
+        {
+          "imgUrl": "/images/tic-tac-toe.png",
+          "title": "Tic Tac Toe Game",
+          "description": "El clasico juego Tic Tac Toe para dos jugadores locales.",
+          "tecnologies": ["node", "js", "mongodb"],
+          "link": "https://github.com/nicolas1102/tic-tac-toe-game"
+        },
+        {
+          "imgUrl": "/images/website-usage-manager.png",
+          "title": "Website Usage Manage",
+          "description": "Extension de Google Chrome para limitar el uso de las redes sociales.",
+          "tecnologies": ["js", "css", "html"],
+          "link": "https://github.com/nicolas1102/tic-tac-toe-game"
+        }
+      ]
+    },
+    "Journey": {
+      "title": "Camino",
+      "items": [
+        {
+          "year": "Hoy",
+          "title": "Estudios de Ingeniería de Sistemas",
+          "duration": "3 años",
+          "details": "Aquí tuve mi primer acercamiento directo al mundo de la programación y el desarrollo de software. Aprendí los conceptos básicos de todo en lo que quiero especializarme como desarrollador de software."
+        },
+        {
+          "year": "2019",
+          "title": "Primera Linea de Codigo",
+          "duration": "el comienzo",
+          "details": "Escribí mi primera línea de código real (mi primer '¡Hola mundo!') que inició mi viaje. Agradezco a mi buen amigo Yisus por presentarme a este mundo."
+        }
+      ]
+    },
+    "Footer": {
+      "items": [
+        {
+          "name": "Github",
+          "url": "https://github.com/nicolas1102",
+          "imgUrl": "/icons/github.svg"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/nicolas-diaz-vargas/",
+          "imgUrl": "/icons/linkedin.svg"
+        },
+        {
+          "name": "Gmail",
+          "url": "mailto:nicolasdiazv1102@gmail.com",
+          "imgUrl": "/icons/gmail.svg"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/nicolasdiazv_/?theme=dark",
+          "imgUrl": "/icons/instagram.svg"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/nicolasdiazv1102/",
+          "imgUrl": "/icons/facebook.svg"
+        }
+      ],
+      "rights": "Nicolás Díaz. Todos los derechos reservados."
+    }
   }
 }

@@ -19,18 +19,21 @@
         {
           "imgUrl": "/images/cine-distrital.png",
           "title": "Cine Distrito",
+          "description": "Full-Stack platform for a cinema.",
           "tecnologies": ["node", "js", "mongodb"],
           "link": "https://github.com/nicolas1102/cine-distrito"
         },
         {
           "imgUrl": "/images/tic-tac-toe.png",
-          "title": "TIC TAC TOE Game",
+          "title": "Tic Tac Toe Game",
+          "description": "Classic tic tac toe game in which two players can play locally.",
           "tecnologies": ["node", "js", "mongodb"],
-          "link": ""
+          "link": "https://github.com/nicolas1102/tic-tac-toe-game"
         },
         {
           "imgUrl": "/images/website-usage-manager.png",
           "title": "Website Usage Manage",
+          "description": "A Google Chrome extension to limit the use of social networks.",
           "tecnologies": ["js", "css", "html"],
           "link": "https://github.com/nicolas1102/tic-tac-toe-game"
         }
@@ -81,7 +84,7 @@
           "imgUrl": "/icons/facebook.svg"
         }
       ],
-      "rights": ""
+      "rights": "Nicolás Díaz. All rights reserved."
     }
   }
 }
