@@ -17,24 +17,31 @@
       "title": "Proyectos",
       "items": [
         {
-          "imgUrl": "/images/cine-distrital.png",
+          "imgUrl": "/images/cine-distrito.png",
           "title": "Cine Distrito",
           "description": "Plataforma Full-stack de un cine.",
-          "tecnologies": ["node", "js", "mongodb"],
+          "tecnologies": ["nextjs", "ejs", "js"],
+          "link": "https://github.com/nicolas1102/cine-distrito"
+        },
+        {
+          "imgUrl": "/images/cine-distrital.png",
+          "title": "Cine Distrital",
+          "description": "Plataforma de un cinema para venta de tickets.",
+          "tecnologies": ["Node", "JS", "MongoDB"],
           "link": "https://github.com/nicolas1102/cine-distrito"
         },
         {
           "imgUrl": "/images/tic-tac-toe.png",
           "title": "Tic Tac Toe Game",
           "description": "El clasico juego Tic Tac Toe para dos jugadores locales.",
-          "tecnologies": ["node", "js", "mongodb"],
+          "tecnologies": ["Node", "JS", "MongoDB"],
           "link": "https://github.com/nicolas1102/tic-tac-toe-game"
         },
         {
           "imgUrl": "/images/website-usage-manager.png",
           "title": "Website Usage Manage",
           "description": "Extension de Google Chrome para limitar el uso de las redes sociales.",
-          "tecnologies": ["js", "css", "html"],
+          "tecnologies": ["JS", "CSS", "HTML"],
           "link": "https://github.com/nicolas1102/tic-tac-toe-game"
         }
       ]

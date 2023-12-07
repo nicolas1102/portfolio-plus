@@ -1,5 +1,6 @@
 "use client";
 import { useCntxt } from "@context";
+import styles from "./styles/themeSwitcher.module.css";
 
 export default function ThemeSwitcher({}) {
   const { theme, setTheme } = useCntxt();
@@ -7,14 +8,17 @@ export default function ThemeSwitcher({}) {
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
+
   const sun = (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      fill="#111621"
+      fill="white"
       viewBox="0 0 24 24"
       strokeWidth={1.5}
-      stroke="#111621"
-      className="w-5 h-5"
+      stroke="white"
+      className={
+        theme === "dark" ? `${styles.dark} ${styles.svg}` : `${styles.svg}`
+      }
     >
       <path
         strokeLinecap="round"
@@ -31,7 +35,9 @@ export default function ThemeSwitcher({}) {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="white"
-      className="w-5 h-5"
+      className={
+        theme === "dark" ? `${styles.dark} ${styles.svg}` : `${styles.svg}`
+      }
     >
       <path
         strokeLinecap="round"
@@ -42,14 +48,16 @@ export default function ThemeSwitcher({}) {
   );
 
   return (
-    <div>
-      <button
-        type="button"
-        onClick={handleThemeSwitch}
-        className="transition duration-300 fixed z-10 p-2 right-6 top-6 bg-primary-300 dark:bg-primary-200 rounded-md border-2 border-secondary-400 dark:border-white hover:bg-primary-200 active:bg-primary-200 dark:hover:bg-primary-300 dark:active:bg-primary-300"
-      >
-        {theme === "dark" ? sun : moon}
-      </button>
-    </div>
+    <button
+      type="button"
+      onClick={handleThemeSwitch}
+      className={
+        theme === "dark"
+          ? `${styles.dark} ${styles.theme_button}`
+          : `${styles.theme_button}`
+      }
+    >
+      {theme === "dark" ? sun : moon}
+    </button>
   );
 }

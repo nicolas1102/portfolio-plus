@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Footer({ DICT }) {
   return (
-    <div className="py-5 text-center">
-      <div className="container max-w-screen-lg mx-auto">
+    <div className="">
+      <div className="">
         <div>
-          <div className="flex flex-wrap justify-center gap-2">
+          <div className="">
             {DICT.items.map((item) => (
               <a
                 href={item.url}
-                className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                className=""
                 key={item.key}
               >
                 <Image
@@ -23,7 +23,7 @@ export default function Footer({ DICT }) {
           </div>
         </div>
       </div>
-      <p className="text-sm mt-2  opacity-50">
+      <p className="">
         &copy; {new Date().getFullYear()} {DICT.rights}
       </p>
     </div>

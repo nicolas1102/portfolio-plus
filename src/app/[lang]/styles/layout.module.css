@@ -1,0 +1,14 @@
+.body {
+  margin-top: 90px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--black);
+  transition: 0.5s;
+}
+
+.dark.body {
+  background-color: var(--secondary-500);
+  color: var(--white);
+}

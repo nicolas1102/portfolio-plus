@@ -1,0 +1,30 @@
+.lang_button {
+  width: 40px;
+  height: 40px;
+  background-color: var(--primary-400);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 2px var(--secondary-500);
+  color: var(--black);
+  transition: 0.5s;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.lang_button:hover{
+  background-color: var(--primary-200);
+  color: var(--secondary-500);
+}
+
+.dark.lang_button{
+  background-color: var(--primary-200);
+  border: solid 2px var(--white);
+  color: var(--secondary-500);
+}
+
+.dark.lang_button:hover{
+  background-color: var(--primary-400);
+  color: var(--white);
+}
