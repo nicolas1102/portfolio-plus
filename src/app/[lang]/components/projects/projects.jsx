@@ -10,7 +10,6 @@ export default function Projects({ DICT }) {
           <ProjectItem
             imgUrl={item.imgUrl}
             title={item.title}
-            description={item.description}
             tecnologies={item.tecnologies}
             link={item.link}
             key={item.key}
