@@ -1,7 +1,7 @@
 export default function Introduction({ DICT }) {
   return (
     <header>
-      <div className="flex items-center justify-center flex-col text-center pt-20 pb-6 px-10">
+      <div className="flex items-center justify-center flex-col text-center pt-10 pb-10 px-10">
         <h1 className="text-6xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">
           {DICT.h1}
         </h1>
