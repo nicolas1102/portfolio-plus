@@ -12,7 +12,7 @@ export default function Timeline({ DICT }) {
             title={item.title}
             duration={item.duration}
             details={item.details}
-            key={item.key}
+            key={Math.random()}
           />
         ))}
       </div>

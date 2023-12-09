@@ -11,7 +11,7 @@ export default function Projects({ DICT }) {
             description={item.description}
             tecnologies={item.tecnologies}
             link={item.link}
-            key={item.key}
+            key={Math.random()}
           />
         ))}
       </div>

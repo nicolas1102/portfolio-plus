@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { rokkitt } from "@/app/styles/fonts";
 
 export default function NotFound() {
   return (

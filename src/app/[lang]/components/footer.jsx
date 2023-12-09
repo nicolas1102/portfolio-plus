@@ -10,7 +10,7 @@ export default function Footer({ DICT }) {
               <a
                 href={item.url}
                 className="bg-white p-2 font-semibold text-white inline-flex items-center space-x-2  border-2 border-secondary-500 dark:border-white overflow-hidden shadow-sm2 hover:shadow-sm2-hover dark:shadow-sm2-dk dark:hover:shadow-sm2-hover-dk transition duration-500 hover:bg-primary-200 "
-                key={item.key}
+                key={Math.random()}
                 target="_blank"
               >
                 <Image
