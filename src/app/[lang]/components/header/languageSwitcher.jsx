@@ -1,25 +1,22 @@
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+"use client";
 import { useCntxt } from "@context";
-import styles from "./styles/languageSwitcher.module.css";
 
-export default function LanguageSwitcher({ lang }) {
+export default function LanguageSwitcher({ DICT }) {
   const { theme, setTheme } = useCntxt();
-  const pathName = usePathname();
 
-  const redirectedPathName = (lang) => {
-    if (!pathName) return "/";
-    const segments = pathName.split("/");
-    segments[1] = lang;
-    return segments.join("/");
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
   };
-  
+
   return (
-    <Link
-      href={lang === "es" ? redirectedPathName("en") : redirectedPathName("es")}
-      className={theme === 'dark' ? `${styles.dark} ${styles.lang_button}` : `${styles.lang_button}`}
-    >
-      {lang === "es" ? <>EN</> : <>ES</>}
-    </Link>
+    <div>
+      <button
+        type="button"
+        onClick={handleThemeSwitch}
+        className="fixed z-10 p-2 right-20 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
+      >
+        {theme === "dark" ? sun : moon}
+      </button>
+    </div>
   );
 }

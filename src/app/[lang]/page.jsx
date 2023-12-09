@@ -21,12 +21,14 @@ export default function Home({ params: { lang } }) {
   }, [DICT, setDICT, setMetadata]);
 
   return (
-    <main>
-      <Header lang={lang} />
-      <Introduction DICT={DICT.Introduction} />
-      <Projects DICT={DICT.Projects} />
-      <Journey DICT={DICT.Journey} />
-      <Footer DICT={DICT.Footer} />
+    <main className="min-h-screen ">
+      <div className="max-w-5xl w-11/12 mx-auto">
+        <Header lang={lang} />
+        <Introduction DICT={DICT.Introduction} />
+        <Projects DICT={DICT.Projects} />
+        <Journey DICT={DICT.Journey} />
+        <Footer DICT={DICT.Footer}/>
+      </div>
     </main>
   );
 }

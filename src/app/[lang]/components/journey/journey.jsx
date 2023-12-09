@@ -3,8 +3,8 @@ import JourneyItem from "./journeyItem";
 
 export default function Journey({ DICT }) {
   return (
-    <div className="">
-      <div className="">
+    <div className="flex flex-col md:flex-row justify-center my-20">
+      <div className="w-full md:w-7/12">
         <Title>Timeline</Title>
         {DICT.items.map((item) => (
           <JourneyItem

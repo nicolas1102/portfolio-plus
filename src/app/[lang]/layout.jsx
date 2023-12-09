@@ -6,7 +6,6 @@ import { useCntxt, changeTheme } from "@context";
 import { getDictionary } from "@dictionaries";
 import HeadMetadata from "../components/headMetadata/headMetadata";
 import Loading from "./loading";
-import styles from "./styles/layout.module.css";
 import { montserrat } from "@/app/styles/fonts";
 
 export default function RootLayout({ children, params: { lang } }) {
@@ -33,7 +32,7 @@ export default function RootLayout({ children, params: { lang } }) {
   return (
     <html lang={lang} className={theme}>
       <HeadMetadata title={metadata.title} description={metadata.description} />
-      <body className={theme === 'dark' ? `${styles.dark} ${styles.body} ${montserrat.className}`: ` ${styles.body} ${montserrat.className}`}>
+      <body className="bg-gray-100 dark:bg-secondary-500 text-secondary-400 dark:text-white">
         {!DICTContext ? <Loading /> : <>{children}</>}
       </body>
     </html>
