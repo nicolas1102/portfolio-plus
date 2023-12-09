@@ -9,8 +9,9 @@ export default function Footer({ DICT }) {
             {DICT.items.map((item) => (
               <a
                 href={item.url}
-                className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
+                className="bg-white p-2 font-semibold text-white inline-flex items-center space-x-2  border-2 border-secondary-500 dark:border-white overflow-hidden shadow-sm2 hover:shadow-sm2-hover dark:shadow-sm2-dk dark:hover:shadow-sm2-hover-dk transition duration-500 hover:bg-primary-200 "
                 key={item.key}
+                target="_blank"
               >
                 <Image
                   src={item.imgUrl}
@@ -23,7 +24,7 @@ export default function Footer({ DICT }) {
           </div>
         </div>
       </div>
-      <p className="text-sm mt-2  opacity-50">
+      <p className="text-sm mt-2  opacity-70">
         &copy; {new Date().getFullYear()} {DICT.rights}
       </p>
     </div>

@@ -20,7 +20,7 @@
           "imgUrl": "/images/cine-distrito.png",
           "title": "Cine Distrito",
           "description": "Plataforma Full-stack de un cine.",
-          "tecnologies": ["nextjs", "ejs", "js"],
+          "tecnologies": ["NextJS", "EJS", "JS"],
           "link": "https://github.com/nicolas1102/cine-distrito"
         },
         {

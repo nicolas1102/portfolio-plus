@@ -4,7 +4,7 @@ import { useCntxt } from "@context";
 import Header from "./components/header/header";
 import Introduction from "./components/introduction";
 import Projects from "./components/projects/projects";
-import Journey from "./components/journey/journey";
+import Timeline from "./components/journey/timeline";
 import Footer from "./components/footer";
 
 export default function Home({ params: { lang } }) {
@@ -26,7 +26,7 @@ export default function Home({ params: { lang } }) {
         <Header lang={lang} />
         <Introduction DICT={DICT.Introduction} />
         <Projects DICT={DICT.Projects} />
-        <Journey DICT={DICT.Journey} />
+        <Timeline DICT={DICT.Journey} />
         <Footer DICT={DICT.Footer}/>
       </div>
     </main>
