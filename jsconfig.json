@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@dictionaries": ["./dictionaries.js"],
+      "@context": ["./src/util/context/context.js"],
+    }
+  }
+}
