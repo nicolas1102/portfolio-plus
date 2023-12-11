@@ -29,7 +29,7 @@ export function middleware(request) {
   if (
     pathname.includes("/icons") ||
     pathname.includes("/images") ||
-    pathname.includes("/logos")
+    pathname.includes("/sounds")
   ) {
     return;
   }

@@ -3,6 +3,8 @@ import ProjectItem from "./projectItem";
 
 export default function Projects({ DICT }) {
   return (
+    <div className="group-title">
+      <Title>Projects</Title>
       <div className="flex flex-row justify-center gap-4 flex-wrap">
         {DICT.items.map((item) => (
           <ProjectItem
@@ -15,5 +17,6 @@ export default function Projects({ DICT }) {
           />
         ))}
       </div>
+    </div>
   );
 }

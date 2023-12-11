@@ -5,6 +5,11 @@
       "title": "Nicolás' Portfolio",
       "description": "Nicolás' Portfolio"
     },
+    "toasty": {
+      "imgUrl": "/images/toasty.png",
+      "soundUrl": "/sounds/toasty.mp3",
+      "alt": "toasty easter egg"
+    },
     "Introduction": {
       "h1": "Nicolás Díaz",
       "title": "Systems Engineer & Web Developer in Training...",

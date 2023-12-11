@@ -31,7 +31,7 @@ export default function ProjectItem({
         <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm dark:text-white ">
           {tecnologies.map((item) => (
             <span
-              className="inline-block px-2 py-1 font-semibold border-2 border-secondary-500 dark:border-white hover:bg-primary-300 dark:hover:bg-primary-200 shadow-sm2 hover:shadow-sm2-hover dark:shadow-sm2-dk dark:hover:shadow-sm2-hover-dk transition duration-300"
+              className="inline-block px-2 py-1 font-semibold border-2 border-secondary-500 dark:border-white group-hover:bg-primary-200  dark:group-hover:bg-primary-300 shadow-sm2 hover:shadow-sm2-hover dark:shadow-sm2-dk dark:hover:shadow-sm2-hover-dk transition duration-700"
               key={item}
             >
               {item}
