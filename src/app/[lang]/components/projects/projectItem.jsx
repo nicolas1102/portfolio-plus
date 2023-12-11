@@ -19,7 +19,7 @@ export default function ProjectItem({
           src={imgUrl}
           width="500"
           height="500"
-          alt="portfolio"
+          alt={title}
           className="w-full h-36 md:h-48 object-cover cursor-pointer transition duration-500 group-hover:scale-110"
         />
       </div>

@@ -8,14 +8,14 @@ export default function Loader() {
           src={"/images/nicolas-icon.png"}
           width="500"
           height="500"
-          alt="portfolio"
+          alt="nicolas icon"
           className="h-12 w-12 md:h-8 object-cover absolute animate-ping"
         />
         <Image
           src={"/images/nicolas-icon.png"}
           width="500"
           height="500"
-          alt="portfolio"
+          alt="nicolas icon"
           className="h-16 w-16 md:h-8 object-cover relative animate-bounce"
         />
       </div>
