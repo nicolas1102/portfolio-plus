@@ -5,6 +5,11 @@
       "title": "Portafolio de Nicolás",
       "description": "Portafolio de Nicolás"
     },
+    "toasty": {
+      "imgUrl": "/images/toasty.png",
+      "soundUrl": "/sounds/toasty.mp3",
+      "alt": "toasty easter egg"
+    },
     "Introduction": {
       "h1": "Nicolás Díaz",
       "title": "Ingeniero de Sistemas y Desarrollador Web en formación...",
