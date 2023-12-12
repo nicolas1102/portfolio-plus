@@ -29,7 +29,8 @@ export function middleware(request) {
   if (
     pathname.includes("/icons") ||
     pathname.includes("/images") ||
-    pathname.includes("/sounds")
+    pathname.includes("/sounds") ||
+    pathname.includes("/docs")
   ) {
     return;
   }

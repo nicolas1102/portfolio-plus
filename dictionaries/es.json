@@ -5,6 +5,10 @@
       "title": "Portafolio de Nicolás",
       "description": "Portafolio de Nicolás"
     },
+    "cvDownloadBtn": {
+      "title": "Descargar CV",
+      "pdfUrl": "/docs/CV - Nicolás Díaz.pdf"
+    },
     "toasty": {
       "imgUrl": "/images/toasty.png",
       "soundUrl": "/sounds/toasty.mp3",
