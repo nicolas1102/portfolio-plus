@@ -5,6 +5,10 @@
       "title": "Nicolás' Portfolio",
       "description": "Nicolás' Portfolio"
     },
+    "cvDownloadBtn": {
+      "title": "Download Resume",
+      "pdfUrl": "/docs/CV - Nicolás Díaz.pdf"
+    },
     "toasty": {
       "imgUrl": "/images/toasty.png",
       "soundUrl": "/sounds/toasty.mp3",

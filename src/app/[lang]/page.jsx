@@ -7,6 +7,7 @@ import Projects from "./components/projects/projects";
 import Timeline from "./components/journey/timeline";
 import Footer from "./components/footer";
 import Toasty from "../components/toasty/toasty";
+import CvDownloadBtn from "../components/cvDownloadBtn/cvDownloadBtn";
 
 export default function Home({ params: { lang } }) {
   const { metadata, setMetadata } = useCntxt();
@@ -22,13 +23,13 @@ export default function Home({ params: { lang } }) {
     }
   }, [DICT, setDICT, setMetadata]);
 
-  function startToasty () {
+  function startToasty() {
     setActivateToasty(true);
 
     setTimeout(() => {
       setActivateToasty(false);
     }, 1000);
-  };
+  }
 
   return (
     <main className="min-h-screen" onClick={startToasty}>
@@ -37,6 +38,7 @@ export default function Home({ params: { lang } }) {
         <Introduction DICT={DICT.Introduction} />
         <Projects DICT={DICT.Projects} />
         <Timeline DICT={DICT.Journey} />
+        <CvDownloadBtn DICT={DICT.cvDownloadBtn} />
         <Footer DICT={DICT.Footer} />
         <Toasty
           imgUrl={DICT.toasty.imgUrl}
