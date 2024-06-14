@@ -26,25 +26,18 @@
       "title": "Projects",
       "items": [
         {
+          "imgUrl": "/images/four-parks.png",
+          "title": "Four Parks Colombia",
+          "description": "Application for parking reservations and management.",
+          "tecnologies": ["NextJS", "TailwindCSS"],
+          "link": "https://github.com/nicolas1102/four-parks-frontend"
+        },
+        {
           "imgUrl": "/images/cine-distrito.png",
           "title": "Cine Distrito",
           "description": "Full-Stack platform for a cinema.",
           "tecnologies": ["NodeJS", "EJS", "JS"],
           "link": "https://github.com/nicolas1102/cine-distrito"
-        },
-        {
-          "imgUrl": "/images/cine-distrital.png",
-          "title": "Cine Distrital",
-          "description": "Cinema platform for ticket sales.",
-          "tecnologies": ["Java"],
-          "link": "https://github.com/nicolas1102/cine-distrito"
-        },
-        {
-          "imgUrl": "/images/tic-tac-toe.png",
-          "title": "Tic Tac Toe Game",
-          "description": "Classic tic tac toe game in which two players can play locally.",
-          "tecnologies": ["JS", "CSS", "HTML"],
-          "link": "https://github.com/nicolas1102/tic-tac-toe-game"
         },
         {
           "imgUrl": "/images/website-usage-manager.png",
