@@ -16,10 +16,10 @@
     },
     "Introduction": {
       "h1": "Nicolás Díaz",
-      "title": "Systems Engineer & Web Developer in Training...",
+      "title": "Systems Engineer & Web Developer...",
       "description": [
-        "I am a systems engineer in training with the desire to become a full-stack developer. For this I always seek to learn everything I can about this world of and thus become a better version of myself.",
-        "Each project that I develop I do conscientiously and although I know that each one could have been better, I am satisfied with what I have achieved and learned while developing them."
+        "I am a Systems Engineering student and currently work in the software development industry. I am passionate about developing digital solutions that are efficient, scalable, and impactful. I enjoy facing technological challenges, continuously learning, and staying updated in an ever-evolving industry.",
+        "I am driven by the opportunity to participate in innovative projects and collaborate with dynamic teams to bring ideas to life. I am always on the lookout for new opportunities to continue growing professionally and to contribute my knowledge to the development of digital products."
       ]
     },
     "Projects": {
@@ -53,8 +53,14 @@
       "items": [
         {
           "year": "Today",
+          "title": "Subdirección para la Juventud (SDIS) - Software Developer",
+          "duration": "current",
+          "details": "I contributed to the development of digital solutions for youth-focused initiatives. I worked on web applications, database management, and content platforms, ensuring accessibility and engagement for young audiences."
+        },
+        {
+          "year": "2020",
           "title": "Systems Engineering Studies",
-          "duration": "4 years",
+          "duration": "current",
           "details": "Here, I had my first direct approach to the world of programming and software development. I learned the basics of everything I want to specialize in as a software developer."
         },
         {

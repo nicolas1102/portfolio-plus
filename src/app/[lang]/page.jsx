@@ -33,20 +33,20 @@ export default function Home({ params: { lang } }) {
 
   return (
     <main className="min-h-screen" onClick={startToasty}>
-      <div className="max-w-5xl w-11/12 mx-auto">
+      <div className="w-11/12 max-w-5xl mx-auto">
         <Header lang={lang} />
         <Introduction DICT={DICT.Introduction} />
         <Projects DICT={DICT.Projects} />
         <Timeline DICT={DICT.Journey} />
         <CvDownloadBtn DICT={DICT.cvDownloadBtn} />
         <Footer DICT={DICT.Footer} />
-        <Toasty
+        {/* <Toasty
           imgUrl={DICT.toasty.imgUrl}
           soundUrl={DICT.toasty.soundUrl}
           alt={DICT.toasty.alt}
           activateToasty={activateToasty}
           setActivateToasty={setActivateToasty}
-        />
+        /> */}
       </div>
     </main>
   );
