@@ -38,7 +38,7 @@ export default function Home({ params: { lang } }) {
         <Introduction DICT={DICT.Introduction} />
         <Projects DICT={DICT.Projects} />
         <Timeline DICT={DICT.Journey} />
-        <CvDownloadBtn DICT={DICT.cvDownloadBtn} />
+        <CvDownloadBtn DICT={DICT.CVDownloadBtns} />
         <Footer DICT={DICT.Footer} />
         {/* <Toasty
           imgUrl={DICT.toasty.imgUrl}

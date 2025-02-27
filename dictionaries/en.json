@@ -5,9 +5,15 @@
       "title": "Nicolás' Portfolio",
       "description": "Nicolás' Portfolio"
     },
-    "cvDownloadBtn": {
-      "title": "Download Resume",
-      "pdfUrl": "/docs/CV - Nicolás Díaz.pdf"
+    "CVDownloadBtns" : {
+      "esCVDownloadBtn": {
+        "title": "Download Spanish Curriculum Vitae",
+        "pdfUrl": "/docs/Nicolas Diaz - CV - ES.pdf"
+      },
+      "enCVDownloadBtn": {
+        "title": "Download English Curriculum Vitae",
+        "pdfUrl": "/docs/Nicolas Diaz - CV - EN.pdf"
+      }
     },
     "toasty": {
       "imgUrl": "/images/toasty.png",

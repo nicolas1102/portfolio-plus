@@ -5,9 +5,15 @@
       "title": "Portafolio de Nicolás",
       "description": "Portafolio de Nicolás"
     },
-    "cvDownloadBtn": {
-      "title": "Descargar CV",
-      "pdfUrl": "/docs/CV - Nicolás Díaz.pdf"
+    "CVDownloadBtns": {
+      "esCVDownloadBtn": {
+        "title": "Descargar Hoja de Vida (Español)",
+        "pdfUrl": "/docs/Nicolas Diaz - CV - ES.pdf"
+      },
+      "enCVDownloadBtn": {
+        "title": "Descargar Hoja de Vida (Inglés)",
+        "pdfUrl": "/docs/Nicolas Diaz - CV - EN.pdf"
+      }
     },
     "toasty": {
       "imgUrl": "/images/toasty.png",
