@@ -5,7 +5,7 @@ export default function Projects({ DICT }) {
   return (
     <div className="group-title">
       <Title>Projects</Title>
-      <div className="flex flex-row justify-center gap-4 flex-wrap">
+      <div className="flex flex-row flex-wrap justify-center gap-4 pb-6">
         {DICT.items.map((item) => (
           <ProjectItem
             imgUrl={item.imgUrl}

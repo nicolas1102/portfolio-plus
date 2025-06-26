@@ -22,10 +22,9 @@
     },
     "Introduction": {
       "h1": "Nicolás Díaz",
-      "title": "Ingeniero de Sistemas y Desarrollador Web en formación...",
+      "title": "Ingeniero de Sistemas | Desarrollador JS/TS, NodeJS & ReactJS | Desarrollador Full Stack",
       "description": [
-        "Soy ingeniero de sistemas en formación con el deseo de convertirme en desarrollador full-stack. Por eso siempre busco aprender todo lo que pueda sobre este mundo y así convertirme en una mejor versión de mí mismo.",
-        "Cada proyecto que desarrollo lo hago de forma consciente y aunque sé que cada uno pudo haber sido mejor, estoy satisfecho con lo que he logrado y aprendido mientras los desarrollé."
+        "Soy ingeniero en Sistemas y actualmente trabajo en la industria del desarrollo de software. Me apasiona desarrollar soluciones digitales eficientes, escalables e impactantes. Disfruto enfrentar desafíos tecnológicos, aprender constantemente y mantenerme actualizado en una industria en constante evolución. Me motiva la oportunidad de trabajar en proyectos innovadores y colaborar con equipos dinámicos para hacer realidad las ideas.Siempre estoy en busca de nuevas oportunidades que me permitan seguir creciendo profesionalmente y aportar mis conocimientos al desarrollo de productos digitales."
       ]
     },
     "Projects": {
@@ -58,15 +57,21 @@
       "title": "Camino",
       "items": [
         {
-          "year": "Hoy",
+          "year": "2024",
           "title": "Secretaría Distrital de Integración Social (Subdirección para la Juventud) - Desarrollador de Software",
-          "duration": "actualidad",
-          "details": "Contribuí al desarrollo de soluciones digitales para iniciativas enfocadas en la juventud. Trabajé en aplicaciones web, gestión de bases de datos y plataformas de contenido, asegurando accesibilidad y participación para el público joven."
+          "duration": "1 año",
+          "details": "Contribuí al diseño técnico y la arquitectura de la plataforma “Distrito Joven”, desarrollando interfaces administrativas y funcionalidades integradas al CMS. Optimicé los flujos de despliegue y publicación de contenidos, y trabajé en colaboración con equipos multidisciplinarios para asegurar la coherencia técnica y visual del proyecto. También me encargué de la gestión del control de versiones y la organización de los repositorios. Utilicé tecnologías como ReactJS, Next.js, TailwindCSS, PayloadCMS, Node.js y PostgreSQL."
         },
         {
-          "year": "Hoy",
-          "title": "Estudios de Ingeniería de Sistemas",
-          "duration": "4 años",
+          "year": "2022",
+          "title": "Freelancer",
+          "duration": "2 años",
+          "details": "Desarrollé interfaces web responsivas y paneles administrativos personalizados para diversos proyectos. Implementé funcionalidades como gestión de contenidos, citas y suscripciones, utilizando tecnologías como ReactJS, Next.js, Angular, TailwindCSS, PostgreSQL, MongoDB y Node.js."
+        },
+        {
+          "year": "2020",
+          "title": "Pregrado en Ingeniería de Sistemas",
+          "duration": "5 años",
           "details": "Aquí tuve mi primer acercamiento directo al mundo de la programación y el desarrollo de software. Aprendí los conceptos básicos de todo en lo que quiero especializarme como desarrollador de software."
         },
         {

@@ -36,8 +36,8 @@ export default function Home({ params: { lang } }) {
       <div className="w-11/12 max-w-5xl mx-auto">
         <Header lang={lang} />
         <Introduction DICT={DICT.Introduction} />
-        <Projects DICT={DICT.Projects} />
         <Timeline DICT={DICT.Journey} />
+        <Projects DICT={DICT.Projects} />
         <CvDownloadBtn DICT={DICT.CVDownloadBtns} />
         <Footer DICT={DICT.Footer} />
         {/* <Toasty
