@@ -33,7 +33,7 @@
         {
           "imgUrl": "/images/distrito.joven.png",
           "title": "Distrito Joven",
-          "description": "Institutional web portal developed for the Bogotá Department of Social Integration. It highlights youth-oriented services and opportunities, including directories, news, workshops, and more.",
+          "description": "Institutional web portal developed for the 'Secretaría Distrital de Integración Social'. It highlights youth-oriented services and opportunities, including directories, news, workshops, and more.",
           "tecnologies": ["PayloadCMS", "NextJS", "PostgreSQL"],
           "link": "https://distritojoven.vercel.app/"
         },
