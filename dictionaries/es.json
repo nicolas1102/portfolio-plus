@@ -31,25 +31,25 @@
       "title": "Proyectos",
       "items": [
         {
+          "imgUrl": "/images/distrito.joven.png",
+          "title": "Distrito Joven",
+          "description": "Portal institucional desarrollado para la Secretaría Distrital de Integración Social, orientado a visibilizar oportunidades y servicios para jóvenes en Bogotá. Incluye directorios, noticias, talleres y más.",
+          "tecnologies": ["PayloadCMS", "NextJS", "PostgreSQL"],
+          "link": "https://distritojoven.vercel.app/"
+        },
+        {
           "imgUrl": "/images/four-parks.png",
           "title": "Four Parks Colombia",
-          "description": "Aplicación para reservas y gestión de parqueaderos.",
-          "tecnologies": ["NextJS", "TailwindCSS"],
+          "description": "Sistema de reservas y gestión de parqueaderos con panel administrativo e interfaz responsiva.",
+          "tecnologies": ["NextJS", "Springboot", "PostgreSQL"],
           "link": "https://github.com/nicolas1102/four-parks-frontend"
         },
         {
           "imgUrl": "/images/cine-distrito.png",
           "title": "Cine Distrito",
-          "description": "Plataforma Full-stack de un cine.",
-          "tecnologies": ["NodeJS", "EJS", "JS"],
+          "description": "Plataforma full-stack de cine para compra de entradas y snacks, con gestión administrativa del sistema.",
+          "tecnologies": ["NodeJS", "EJS", "JS", "MongoDB"],
           "link": "https://github.com/nicolas1102/cine-distrito"
-        },
-        {
-          "imgUrl": "/images/website-usage-manager.png",
-          "title": "Website Usage Manage",
-          "description": "Extension de Google Chrome para limitar el uso de las redes sociales.",
-          "tecnologies": ["JS", "CSS", "HTML"],
-          "link": "https://github.com/nicolas1102/website-usage-manager"
         }
       ]
     },

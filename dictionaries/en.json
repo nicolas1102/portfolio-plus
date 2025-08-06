@@ -31,25 +31,25 @@
       "title": "Projects",
       "items": [
         {
+          "imgUrl": "/images/distrito.joven.png",
+          "title": "Distrito Joven",
+          "description": "Institutional web portal developed for the Bogotá Department of Social Integration. It highlights youth-oriented services and opportunities, including directories, news, workshops, and more.",
+          "tecnologies": ["PayloadCMS", "NextJS", "PostgreSQL"],
+          "link": "https://distritojoven.vercel.app/"
+        },
+        {
           "imgUrl": "/images/four-parks.png",
           "title": "Four Parks Colombia",
-          "description": "Application for parking reservations and management.",
-          "tecnologies": ["NextJS", "TailwindCSS"],
+          "description": "Parking reservation and management system with admin dashboard and responsive user interface.",
+          "tecnologies": ["NextJS", "Springboot", "PostgreSQL"],
           "link": "https://github.com/nicolas1102/four-parks-frontend"
         },
         {
           "imgUrl": "/images/cine-distrito.png",
           "title": "Cine Distrito",
-          "description": "Full-Stack platform for a cinema.",
-          "tecnologies": ["NodeJS", "EJS", "JS"],
+          "description": "Full-stack cinema platform for ticket and snack purchases, with admin system management.",
+          "tecnologies": ["NodeJS", "EJS", "JS", "MongoDB"],
           "link": "https://github.com/nicolas1102/cine-distrito"
-        },
-        {
-          "imgUrl": "/images/website-usage-manager.png",
-          "title": "Website Usage Manage",
-          "description": "A Google Chrome extension to limit the use of social networks.",
-          "tecnologies": ["JS", "CSS", "HTML"],
-          "link": "https://github.com/nicolas1102/website-usage-manager"
         }
       ]
     },
