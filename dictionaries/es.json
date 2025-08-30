@@ -31,6 +31,13 @@
       "title": "Proyectos",
       "items": [
         {
+          "imgUrl": "/images/criollos.png",
+          "title": "Criollos de la Montaña",
+          "description": "Sitio web de la Fundación de Criollos de la Montaña de adopción de perros y gatos. Incluye páginas individuales para cada mascota, formularios de adopción, opciones de donación y un panel de administración personalizado.",
+          "tecnologies": ["PayloadCMS", "NextJS", "MongoDB"],
+          "link": "https://www.criollosdelamontaña.com/"
+        },
+        {
           "imgUrl": "/images/distrito.joven.png",
           "title": "Distrito Joven",
           "description": "Portal institucional desarrollado para la Secretaría Distrital de Integración Social, orientado a visibilizar oportunidades y servicios para jóvenes en Bogotá. Incluye directorios, noticias, talleres y más.",
@@ -43,13 +50,6 @@
           "description": "Sistema de reservas y gestión de parqueaderos con panel administrativo e interfaz responsiva.",
           "tecnologies": ["NextJS", "Springboot", "PostgreSQL"],
           "link": "https://github.com/nicolas1102/four-parks-frontend"
-        },
-        {
-          "imgUrl": "/images/cine-distrito.png",
-          "title": "Cine Distrito",
-          "description": "Plataforma full-stack de cine para compra de entradas y snacks, con gestión administrativa del sistema.",
-          "tecnologies": ["NodeJS", "EJS", "JS", "MongoDB"],
-          "link": "https://github.com/nicolas1102/cine-distrito"
         }
       ]
     },

@@ -5,7 +5,7 @@
       "title": "Nicolás' Portfolio",
       "description": "Nicolás' Portfolio"
     },
-    "CVDownloadBtns" : {
+    "CVDownloadBtns": {
       "esCVDownloadBtn": {
         "title": "Download Nicolas' CV (ES)",
         "pdfUrl": "/docs/Nicolas Diaz - CV - ES.pdf"
@@ -31,6 +31,13 @@
       "title": "Projects",
       "items": [
         {
+          "imgUrl": "/images/criollos.png",
+          "title": "Criollos de la Montaña",
+          "description": "The Mountain Criollos Foundation's website for dog and cat adoption. It includes individual pages for each pet, adoption forms, donation options, and a customizable admin panel.",
+          "tecnologies": ["PayloadCMS", "NextJS", "MongoDB"],
+          "link": "https://www.criollosdelamontaña.com/"
+        },
+        {
           "imgUrl": "/images/distrito.joven.png",
           "title": "Distrito Joven",
           "description": "Institutional web portal developed for the 'Secretaría Distrital de Integración Social'. It highlights youth-oriented services and opportunities, including directories, news, workshops, and more.",
@@ -43,13 +50,6 @@
           "description": "Parking reservation and management system with admin dashboard and responsive user interface.",
           "tecnologies": ["NextJS", "Springboot", "PostgreSQL"],
           "link": "https://github.com/nicolas1102/four-parks-frontend"
-        },
-        {
-          "imgUrl": "/images/cine-distrito.png",
-          "title": "Cine Distrito",
-          "description": "Full-stack cinema platform for ticket and snack purchases, with admin system management.",
-          "tecnologies": ["NodeJS", "EJS", "JS", "MongoDB"],
-          "link": "https://github.com/nicolas1102/cine-distrito"
         }
       ]
     },
@@ -57,7 +57,7 @@
       "title": "Journey",
       "items": [
         {
-          "year": "Today",
+          "year": "2024",
           "title": "Secretaría Distrital de Integración Social (Subdirección para la Juventud) - Software Developer",
           "duration": "1 year",
           "details": "I contributed to the technical design and architecture of the “Distrito Joven” platform, developing admin interfaces and CMS-integrated features. I streamlined content deployment and publishing workflows, and collaborated with cross-functional teams to ensure technical and visual consistency. I also managed code versioning and repository organization. The tech stack included ReactJS, Next.js, TailwindCSS, PayloadCMS, Node.js, and PostgreSQL."
