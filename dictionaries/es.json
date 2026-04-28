@@ -57,6 +57,12 @@
       "title": "Camino",
       "items": [
         {
+          "year": "2025",
+          "title": "Hired Experts - Desarrollador de Software",
+          "duration": "actualmente",
+          "details": "Lideré el soporte y la evolución de un portal web full-stack para clientes de una firma legal de deuda, construido sobre una arquitectura de microservicios. Mantuve y extendí el frontend, implementando nuevas funcionalidades, corrigiendo incidencias y asegurando una integración fluida con los servicios backend. Gestioné la infraestructura en AWS (EKS, ALB, VPC, S3) utilizando Terraform, operando ambientes de desarrollo, staging y producción sobre Kubernetes. Diagnostiqué y resolví incidentes en un sistema distribuido usando Redis, PostgreSQL e integraciones externas. Apoyé actividades de DevOps, incluyendo el uso de Docker, Nginx y despliegues en clústeres de EKS."
+        },
+        {
           "year": "2024",
           "title": "Secretaría Distrital de Integración Social (Subdirección para la Juventud) - Desarrollador de Software",
           "duration": "1 año",
