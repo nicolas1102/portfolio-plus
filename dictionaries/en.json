@@ -57,6 +57,12 @@
       "title": "Journey",
       "items": [
         {
+          "year": "2025",
+          "title": "Hired Experts - Software Developer",
+          "duration": "present",
+          "details": "Led the support and evolution of a full-stack web portal for clients of a debt law firm, built on a microservices architecture. Maintained and extended the frontend, implementing new features, fixing issues, and ensuring seamless integration with backend services. Managed infrastructure on AWS (EKS, ALB, VPC, S3) using Terraform, operating development, staging, and production environments on Kubernetes. Diagnosed and resolved incidents in a distributed system using Redis, PostgreSQL, and external integrations. Supported DevOps activities including Docker, Nginx, and deployments to EKS clusters."
+        },
+        {
           "year": "2024",
           "title": "Secretaría Distrital de Integración Social (Subdirección para la Juventud) - Software Developer",
           "duration": "1 year",
